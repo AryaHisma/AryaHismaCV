@@ -5,7 +5,7 @@ from PIL import Image
 # Set page config
 st.set_page_config(
     page_title="Aplikasi Saya",
-    page_icon="https://example.com/icon.png",
+    page_icon="https://www.linkedin.com/in/arya-hisma-maulana",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
@@ -65,8 +65,7 @@ with col1:
             <p><i class="fas fa-map-marker-alt"></i> Kota Banda Aceh. Provinsi Aceh</p>
             """, unsafe_allow_html=True)
         
-    #         Kecamatan Ulee Kareng. Kota Banda Aceh. Propinsi Aceh, 23715 
-        
+            
         # Skill header
         st.header("SKILL")
 
