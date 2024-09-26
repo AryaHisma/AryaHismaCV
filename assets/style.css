@@ -1,0 +1,57 @@
+/* Custom CSS */
+/* body {
+    font-family: 'Helvetica', sans-serif;
+    background-image: url('assets\Pemandangan_Gunung_Bromo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+
+h1 {
+    color: #dd3f3f;
+}
+
+
+h2 {
+    color: #f0ecec;
+}
+
+h3 {
+    color: #faf8f8;
+}
+
+p {
+    color: #faf8f8;
+    font-size: 16px; /* Mengatur ukuran huruf */
+    font-family: Arial, sans-serif; /* Mengatur gaya huruf */
+    font-weight: normal; /* Menambahkan opsi gaya huruf: normal, bold, italic, dll. */
+    line-height: 2; /* Menambahkan tinggi baris untuk lebih mudah dibaca */
+}
+
+
+div.st-emotion-cache-1ssk5cy.e1f1d6gn0 {
+    background-color: #ec1212;
+    border: 3px solid #221e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1100px; /* Sesuaikan dengan kebutuhan */
+    width: 95%; /* Sesuaikan dengan kebutuhan */
+
+    /* Mengatur border radius masing-masing sudut */
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+.round-image-container img {
+    border-radius: 50%;
+    width: 100px; /* Sesuaikan ukuran sesuai kebutuhan */
+    height: 100px; /* Sesuaikan ukuran sesuai kebutuhan */
+    object-fit: cover; /* Untuk memastikan gambar tidak terdistorsi */
+}
+
+div.block-container.st-emotion-cache-1jicfl2.ea3mdgi5 {
+    background-color: #d3ebbc;
+}
+
