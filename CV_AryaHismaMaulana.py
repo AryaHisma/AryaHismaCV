@@ -29,7 +29,7 @@ with col1:
         st.image(image)
         
     with st.container(height=1000, border=True):
-        st.header("**DATA PRIBADI**")
+        st.header("**PERSONAL INFORMATION**")
         st.markdown('''
                     <p><strong>Tempat/Tanggal Lahir</strong><br>
                     Banda Aceh / 2 Oktober 199*</p>
@@ -56,7 +56,7 @@ with col1:
         """, unsafe_allow_html=True)
         
         # Kontak header
-        st.header("KONTAK")
+        st.header("CONTACT")
 
         # Kontak details with icons
         st.markdown("""
@@ -164,7 +164,7 @@ with col2:
             """, unsafe_allow_html=True)
 
         # Header
-        st.markdown('<div class="profile-header">PROFIL</div>', unsafe_allow_html=True)
+        st.markdown('<div class="profile-header">PROFILE</div>', unsafe_allow_html=True)
 
         # Profile text
         st.markdown('''
@@ -214,7 +214,7 @@ Kombinasi keterampilan teknis ini memungkinkan saya untuk memberikan wawasan yan
             """, unsafe_allow_html=True)
 
         # Header
-        st.markdown('<div class="education-header">RIWAYAT PENDIDIKAN</div>', unsafe_allow_html=True)
+        st.markdown('<div class="education-header">EDUCATIONAL BACKGROUND</div>', unsafe_allow_html=True)
 
         # Education details
         st.markdown('''
@@ -270,7 +270,7 @@ Kombinasi keterampilan teknis ini memungkinkan saya untuk memberikan wawasan yan
                 """, unsafe_allow_html=True)
 
         # Header
-        st.markdown('<div class="job-header">RIWAYAT PEKERJAAN</div>', unsafe_allow_html=True)
+        st.markdown('<div class="job-header">WORK HISTORY</div>', unsafe_allow_html=True)
 
         # Job details
         st.markdown('''
@@ -342,7 +342,7 @@ Kombinasi keterampilan teknis ini memungkinkan saya untuk memberikan wawasan yan
                 """, unsafe_allow_html=True)
 
         # Header
-        st.markdown('<div class="job-header">PENGALAMAN PELATIHAN</div>', unsafe_allow_html=True)
+        st.markdown('<div class="job-header">TRAINING EXPERIENCE</div>', unsafe_allow_html=True)
 
         # Job details
         st.markdown('''
@@ -404,21 +404,21 @@ Kombinasi keterampilan teknis ini memungkinkan saya untuk memberikan wawasan yan
             </style>
                 """, unsafe_allow_html=True)
 
-        # Header
-        st.markdown('<div class="job-header">PENGALAMAN ORGANISASI</div>', unsafe_allow_html=True)
+#         # Header
+#         st.markdown('<div class="job-header">PENGALAMAN ORGANISASI</div>', unsafe_allow_html=True)
 
-        # Job details
-        st.markdown('''
-<div class="job-item">
-    <div class="job-company">IKAFT USK JABAJAB</div>
-    <div class="job-date">Jakarta, Sep 2018 - Saat Ini</div>
-    <div class="job-description">
-        <strong> - Menyelenggarakan musyawarah besar organisasi</strong><br>
-        <strong> - Menyelenggarakan pelatihan bagi alumni</strong><br>
-        </div>
+#         # Job details
+#         st.markdown('''
+# <div class="job-item">
+#     <div class="job-company">IKAFT USK JABAJAB</div>
+#     <div class="job-date">Jakarta, Sep 2018 - Saat Ini</div>
+#     <div class="job-description">
+#         <strong> - Menyelenggarakan musyawarah besar organisasi</strong><br>
+#         <strong> - Menyelenggarakan pelatihan bagi alumni</strong><br>
+#         </div>
     
-</div>
-''', unsafe_allow_html=True)
+# </div>
+# ''', unsafe_allow_html=True)
         
       
         
