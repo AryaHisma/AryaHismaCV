@@ -32,7 +32,7 @@ with col1:
         st.header("**DATA PRIBADI**")
         st.markdown('''
                     <p><strong>Tempat/Tanggal Lahir</strong><br>
-                    Banda Aceh / 2 Oktober 1990</p>
+                    Banda Aceh / 2 Oktober 199*</p>
                     ''', unsafe_allow_html=True)
         
         st.markdown('''
@@ -62,11 +62,9 @@ with col1:
         st.markdown("""
             <p><i class="fas fa-phone-alt"></i>   0823 6644 28**</p>
             <p><i class="fas fa-envelope"></i> aryahisma@yahoo.co.id</p>
-            <p><i class="fas fa-map-marker-alt"></i> JL. Jalan. Tgk. Adee V Desa Doy. 
-            Kecamatan Ulee Kareng. Kota Banda Aceh. Propinsi Aceh, 23715</p>
+            <p><i class="fas fa-map-marker-alt"></i> Kota Banda Aceh. Provinsi Aceh</p>
             """, unsafe_allow_html=True)
         
-    #    JL. Jalan. Tgk. Adee V Desa Doy. 
     #         Kecamatan Ulee Kareng. Kota Banda Aceh. Propinsi Aceh, 23715 
         
         # Skill header
