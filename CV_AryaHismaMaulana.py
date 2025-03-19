@@ -23,7 +23,7 @@ col1, col2 = st.columns([1, 2])
 
 with col1:
        
-    with st.container(height=400, border=False):
+    with st.container(height=500, border=False):
         # --- IMAGE ---
         image = Image.open("assets/Untitled.png")
         st.image(image)
@@ -32,7 +32,7 @@ with col1:
         st.header("**PERSONAL INFORMATION**")
         st.markdown('''
                     <p><strong>Tempat/Tanggal Lahir</strong><br>
-                    Banda Aceh / 2 Oktober 199*</p>
+                    Banda Aceh / 2 Oktober ****</p>
                     ''', unsafe_allow_html=True)
         
         st.markdown('''
