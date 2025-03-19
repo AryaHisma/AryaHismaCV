@@ -23,12 +23,12 @@ col1, col2 = st.columns([1, 2])
 
 with col1:
        
-    with st.container(height=500, border=False):
+    with st.container(height=400, border=False):
         # --- IMAGE ---
         image = Image.open("assets/Untitled.png")
         st.image(image)
         
-    with st.container(height=1000, border=True):
+    with st.container(height=1100, border=True):
         st.header("**PERSONAL INFORMATION**")
         st.markdown('''
                     <p><strong>Tempat/Tanggal Lahir</strong><br>
@@ -60,7 +60,7 @@ with col1:
 
         # Kontak details with icons
         st.markdown("""
-            <p><i class="fas fa-phone-alt"></i>   0823 6644 28**</p>
+            <p><i class="fas fa-phone-alt"></i>   0823 6644 ****</p>
             <p><i class="fas fa-envelope"></i> aryahisma@yahoo.co.id</p>
             <p><i class="fas fa-map-marker-alt"></i> Kota Banda Aceh. Provinsi Aceh</p>
             """, unsafe_allow_html=True)
@@ -157,7 +157,6 @@ with col2:
             }
             .profile-text {
                 font-size: 18px;
-                color: #555;
                 line-height: 1.6;
             }
             </style>
@@ -199,7 +198,6 @@ Kombinasi keterampilan teknis ini memungkinkan saya untuk memberikan wawasan yan
             }
             .education-item {
                 font-size: 18px;
-                color: #555;
                 margin-bottom: 10px;
             }
             .education-item strong {
@@ -208,7 +206,6 @@ Kombinasi keterampilan teknis ini memungkinkan saya untuk memberikan wawasan yan
             .education-details {
                 margin-left: 20px;
                 font-size: 16px;
-                color: #666;
             }
             </style>
             """, unsafe_allow_html=True)
@@ -222,7 +219,6 @@ Kombinasi keterampilan teknis ini memungkinkan saya untuk memberikan wawasan yan
             <strong>S1 Teknik Sipil Universitas Syiah Kuala</strong>
             <div class="education-details">
                 - Banda Aceh, 2008-2013<br>
-                - Lulus dengan predikat Pujian, IPK 3.45
             </div>
         </div>
         ''', unsafe_allow_html=True)
@@ -242,29 +238,32 @@ Kombinasi keterampilan teknis ini memungkinkan saya untuk memberikan wawasan yan
             .job-header {
                 font-size: 32px;
                 font-weight: bold;
-                color: #dd3f3f;
                 border-bottom: 3px solid #007bff;
                 padding-bottom: 10px;
                 margin-bottom: 20px;
             }
             .job-item {
                 font-size: 18px;
-                color: #555;
                 margin-bottom: 10px;
+                color: #ffffff;
             }
             .job-company {
                 font-weight: bold;
-                color: #333;
+                color: #ffffff;
+            }
+            .job-date1 {
+                font-weight: bold;
+                color: #ffffff;
             }
             .job-date {
                 font-style: italic;
-                color: #777;
+                color: #ffffff;
             }
             .job-description {
                 margin-left: 20px;
                 font-size: 16px;
-                color: #666;
                 line-height: 1.6;
+                color: #ffffff;
             }
             </style>
                 """, unsafe_allow_html=True)
@@ -275,7 +274,7 @@ Kombinasi keterampilan teknis ini memungkinkan saya untuk memberikan wawasan yan
         # Job details
         st.markdown('''
 <div class="job-item">
-    <div class="job-company">PT Pembangunan Perumahan (Persero) .Tbk</div>
+    <div class="job-date1">PT Pembangunan Perumahan (Persero) .Tbk</div>
     <div class="job-date">Jakarta, Sep 2018 - Saat Ini</div>
     <div class="job-description">
         <strong> - Melakukan Pembersihan, Transformasi, dan Penyimpanan Data di Data Warehouse</strong><br>
@@ -321,21 +320,20 @@ Kombinasi keterampilan teknis ini memungkinkan saya untuk memberikan wawasan yan
             }
             .job-item {
                 font-size: 18px;
-                color: #555;
                 margin-bottom: 10px;
             }
             .job-company {
                 font-weight: bold;
-                color: #333;
+            }
+            .job-date2 {
+                font-weight: bold;
             }
             .job-date {
                 font-style: italic;
-                color: #777;
             }
             .job-description {
                 margin-left: 20px;
                 font-size: 16px;
-                color: #666;
                 line-height: 1.6;
             }
             </style>
@@ -347,7 +345,7 @@ Kombinasi keterampilan teknis ini memungkinkan saya untuk memberikan wawasan yan
         # Job details
         st.markdown('''
 <div class="job-item">
-    <div class="job-company">ALGORITMA ACADEMY (Data Analytics Specialization)</div>
+    <div class="job-date2">ALGORITMA ACADEMY (Data Analytics Specialization)</div>
     <div class="job-date">Jakarta, Nov 2023 - Jan 2024</div>
     <div class="job-description">
         <strong> - Python for Data Analytics</strong><br>
@@ -362,7 +360,7 @@ Kombinasi keterampilan teknis ini memungkinkan saya untuk memberikan wawasan yan
         
         st.markdown('''
 <div class="job-item">
-    <div class="job-company">Digital Talent Scholarship Kominfo (UI/UX Design)</div>
+    <div class="job-date2">Digital Talent Scholarship Kominfo (UI/UX Design)</div>
     <div class="job-date">Jakarta, Agu 2022 - Okt 2022</div>
     <div class="job-description">
         <strong> - UX Design Process</strong><br>
@@ -384,7 +382,6 @@ Kombinasi keterampilan teknis ini memungkinkan saya untuk memberikan wawasan yan
             }
             .job-item {
                 font-size: 18px;
-                color: #555;
                 margin-bottom: 10px;
             }
             .job-company {
@@ -393,12 +390,10 @@ Kombinasi keterampilan teknis ini memungkinkan saya untuk memberikan wawasan yan
             }
             .job-date {
                 font-style: italic;
-                color: #777;
             }
             .job-description {
                 margin-left: 20px;
                 font-size: 16px;
-                color: #666;
                 line-height: 1.6;
             }
             </style>
